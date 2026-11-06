@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+
+# Environment / secrets
+.env
+
+# Large raw datasets
+data/raw/
+data/processed/PVDAQ_2107_clean.csv
+
+# Trained model files
+*.pt
+*.pth
+*.ckpt
+
+# Experiment outputs
+outputs/
+logs/
+wandb/
+
+# Temporary files
+*.tmp
+*.bak
